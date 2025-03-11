@@ -4,9 +4,15 @@ class Calculator
         {
             Console.Title = "Aplikasi Calculator";
 
-            int a = 10;
-            int b = 6;
-
+            Console.write("Inputkan nilai a =  ");
+			int a = int.Parse(Console.Readline());
+			
+			
+            Console.write("Inputkan nilai b =  ");
+			int b = int.Parse(Console.Readline());
+			
+			Console.WriteLine();
+			
             Console.WriteLine("Hasil Penambahan " + a + " + " + b + " = " + Penambahan(a, b));
             Console.WriteLine("Hasil Pengurangan " + a + " - " + b + " = " + Pengurangan(a, b));
             Console.WriteLine("Hasil Perkalian {0} * {1} = {2}", a, b, Perkalian(a, b));
